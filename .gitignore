@@ -1,0 +1,32 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore environment variables file
+.env
+
+# Ignore log files
+logs/
+
+# Ignore package-lock.json file
+package-lock.json
+
+# Ignore .DS_Store files on macOS
+.DS_Store
+
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore IntelliJ IDEA files
+.idea/
+
+# Ignore the .env.local file, which is used to override environment variables in development
+.env.local
+
+# Ignore any files or directories with the word "test" in the name
+**/test*
+
+# Ignore any files or directories with the word "coverage" in the name
+**/coverage*
+
+# Ignore any files or directories with the word "temp" in the name
+**/temp*
